@@ -1,0 +1,6 @@
+Config,Hidden Layers,Activation,Learning Rate,Epochs,Train Accuracy,Test Accuracy,Final Loss
+Exp1 (Baseline),"(64, 32)",relu,0.001,200,1.0,0.975,0.0009
+Exp2 (Deeper),"(128, 64, 32)",relu,0.001,200,1.0,0.98,0.0005
+Exp3 (High LR),"(64, 32)",relu,0.01,200,1.0,0.9725,0.0009
+Exp4 (Tanh),"(64, 32)",tanh,0.001,200,1.0,0.97,0.0017
+Exp5 (Low LR),"(64, 32)",relu,0.0001,300,0.9981,0.98,0.0109
